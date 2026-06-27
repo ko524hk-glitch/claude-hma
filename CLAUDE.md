@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a web or mobile application project. Tech stack is TBD — update this section once the stack is decided.
+HK-based salon discovery and booking app, plus a movie location tourism app for mainland tourists. Built with Bubble.io (frontend/logic), Supabase (database), and Stripe (payments).
 
 ## Response Style
 
-Keep responses short and direct. Give the answer; skip lengthy explanation unless asked.
+Keep responses short and direct. Give the answer; skip lengthy explanation unless asked. Reply in Cantonese.
 
 ## Project Structure
 
