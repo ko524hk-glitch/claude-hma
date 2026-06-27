@@ -124,3 +124,38 @@ _Add build, run, and test commands here once set up._
 ## Architecture
 
 _Document high-level architecture here once it takes shape._
+
+---
+
+## Current Status (as of 2026-06-27)
+
+### Situation
+Founder has surgery from **5 July – 12 July 2026**. Goal is to have the Salon Booking App core flow stable before surgery, then resume on a **laptop** after recovery.
+
+### Salon App — Pre-surgery Build Plan (27 Jun – 4 Jul)
+| Date | Task |
+|------|------|
+| 27–28 Jun | Bubble.io: build homepage, search page, salon detail page |
+| 29–30 Jun | Supabase: set up tables (salons, services, bookings, users, reviews) |
+| 1 Jul | Connect Google Maps API, district-based search working |
+| 2 Jul | Stripe Connect basic integration (payment flow runnable) |
+| 3 Jul | End-to-end test: search → detail → booking → payment |
+| 4 Jul | Backup everything, document what's unfinished |
+
+**Not needed before surgery:** review system, iOS, multilingual toggle, marketing.
+
+### During Surgery Recovery (5–12 Jul)
+- Use **claude.ai on mobile** for light planning and decisions — no laptop needed
+- Do NOT rush to code during recovery
+
+### After Recovery — Resume on Laptop
+- `git clone` or `git pull` this repo on the laptop
+- Open folder in Claude Code — it will read this CLAUDE.md automatically
+- No retraining needed, all context is here
+
+### What's NOT started yet
+- Bubble.io pages (not built)
+- Supabase tables (not set up)
+- Stripe Connect (not connected)
+- Google Maps API (not connected)
+- Film App (on hold, Salon App is priority)
